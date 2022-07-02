@@ -123,7 +123,8 @@ export const About = () => {
               <div className="imag-col">
                 <img
                   src="/portfolio/images/my-pic.png"
-                  alt="mono me"
+                  alt="mono-me"
+                  loading="lazy"
                   className="image-about"
                 />
               </div>

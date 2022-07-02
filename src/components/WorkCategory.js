@@ -94,6 +94,7 @@ export const WorkCategory = () => {
                 <div key={i.id} className="item-container">
                   <Link to={`/categorydetails/${i.id}`} className="image">
                     <img
+                      loading="lazy"
                       id={`image-${i.id}`}
                       src={i.image}
                       alt={i.title}

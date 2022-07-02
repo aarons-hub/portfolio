@@ -144,6 +144,7 @@ export const WorkPanel = () => {
                 <img
                   src="/portfolio/images/photography.png"
                   alt="photography"
+                  loading="lazy"
                 />
               </div>
               <div
@@ -156,7 +157,11 @@ export const WorkPanel = () => {
                 <span className="overlay"></span>
                 <span className="tile-title">Graphics</span>
                 <Link to="/category/Graphics"></Link>
-                <img src="/portfolio/images/graphic.png" alt="photography" />
+                <img
+                  src="/portfolio/images/graphic.png"
+                  alt="photography"
+                  loading="lazy"
+                />
               </div>
               <div
                 className={`work-panel-btn ${isHoveringWeb ? "active" : ""}`}
@@ -166,7 +171,11 @@ export const WorkPanel = () => {
                 <span className="overlay"></span>
                 <span className="tile-title">Web</span>
                 <Link to="/category/Web"></Link>
-                <img src="/portfolio/images/web.png" alt="photography" />
+                <img
+                  src="/portfolio/images/web.png"
+                  alt="photography"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>

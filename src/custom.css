@@ -155,7 +155,9 @@ h2.custom-heading {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  padding: 0px 14px;
+  padding: 0px 40px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 .detail-image {
   box-sizing: border-box;
@@ -798,11 +800,6 @@ a:hover.go-to-site-btn {
   position: relative;
   z-index: 1;
 }
-.zone-container,
-.zone-content,
-.zone-inner {
-  /* border: 2px solid blue; */
-}
 .zone-inner.welcome {
   margin-top: 0px;
 }
@@ -819,5 +816,19 @@ a:hover.go-to-site-btn {
   }
   .zone-inner.welcome h1.zone-heading {
     padding-top: 176px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .zone-inner.welcome h1.zone-heading {
+    padding-top: 43px;
+    padding-bottom: 40px;
+  }
+  .spacer-one {
+    height: 0px;
+  }
+  .zone-col-row {
+    gap: 0px;
+    flex-direction: column;
   }
 }

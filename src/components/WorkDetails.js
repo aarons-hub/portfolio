@@ -86,7 +86,7 @@ export const WorkDetails = () => {
           <div className="detail-container">
             <div className="detail-image">
               <Link to="/work">
-                <img src={found.image} alt={found.title} />
+                <img src={found.image} alt={found.title} loading="lazy" />
               </Link>
             </div>
             <h1 className="detail-heading">{found.title}</h1>
