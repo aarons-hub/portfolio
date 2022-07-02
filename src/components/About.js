@@ -25,7 +25,7 @@ export const About = () => {
                 transform="translate(20212.275 4840)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Path_478"
@@ -34,7 +34,7 @@ export const About = () => {
                 transform="translate(19598.781 4843.055)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Path_479"
@@ -43,7 +43,7 @@ export const About = () => {
                 transform="translate(19387.197 4843.867)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="path875"
@@ -51,7 +51,7 @@ export const About = () => {
                 transform="translate(20046.504 4844.151)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Path_481"
@@ -60,7 +60,7 @@ export const About = () => {
                 transform="translate(20268.703 4846.052)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
             </g>
           </svg>
@@ -122,7 +122,7 @@ export const About = () => {
             <div className="zone-row">
               <div className="imag-col">
                 <img
-                  src="../images/my-pic.png"
+                  src="/portfolio/images/my-pic.png"
                   alt="mono me"
                   className="image-about"
                 />

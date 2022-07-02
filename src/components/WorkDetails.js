@@ -6,7 +6,8 @@ import { Header } from "./Header";
 export const WorkDetails = () => {
   const { id } = useParams();
   const [data, setData] = useState([]);
-  const API_URI = "../data.json";
+
+  const API_URI = "/portfolio/data.json";
 
   useEffect(() => {
     fetchData();

@@ -68,7 +68,7 @@ export const Header = () => {
               </li>
               <li>
                 <Link to="/workpanel">Work</Link>
-                <ul class="dropdown">
+                <ul className="dropdown">
                   <li>
                     <Link to="/category/Web">Web</Link>
                   </li>

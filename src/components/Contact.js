@@ -24,7 +24,7 @@ export const Contact = () => {
                 transform="translate(1160.09 5565.028)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Ellipse_3"
@@ -33,7 +33,7 @@ export const Contact = () => {
                 transform="translate(258.752 5563)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Path_481"
@@ -42,7 +42,7 @@ export const Contact = () => {
                 transform="translate(-323.854 5566.191)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Path_481-2"
@@ -51,7 +51,7 @@ export const Contact = () => {
                 transform="translate(52.428 5565.096)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Path_481-3"
@@ -60,7 +60,7 @@ export const Contact = () => {
                 transform="translate(898.893 5565.096)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="path987"
@@ -68,7 +68,7 @@ export const Contact = () => {
                 transform="translate(-33.504 5552.69)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="path987-2"
@@ -77,7 +77,7 @@ export const Contact = () => {
                 transform="translate(1463.191 5552.69)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
             </g>
           </svg>

@@ -53,7 +53,7 @@ export const WorkPanel = () => {
                 transform="translate(18297.848 5707.675)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Path_482"
@@ -62,7 +62,7 @@ export const WorkPanel = () => {
                 transform="translate(17721 5706.973)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <circle
                 id="Ellipse_18"
@@ -73,7 +73,7 @@ export const WorkPanel = () => {
                 transform="translate(18247 5703)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="path869"
@@ -81,7 +81,7 @@ export const WorkPanel = () => {
                 transform="translate(18443.957 5706.973)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
             </g>
           </svg>
@@ -141,7 +141,10 @@ export const WorkPanel = () => {
                 <span className="overlay"></span>
                 <span className="tile-title">Photography</span>
                 <Link to="/category/Photography"></Link>
-                <img src="../images/photography.png" alt="photography" />
+                <img
+                  src="/portfolio/images/photography.png"
+                  alt="photography"
+                />
               </div>
               <div
                 className={`work-panel-btn ${
@@ -153,7 +156,7 @@ export const WorkPanel = () => {
                 <span className="overlay"></span>
                 <span className="tile-title">Graphics</span>
                 <Link to="/category/Graphics"></Link>
-                <img src="../images/graphic.png" alt="photography" />
+                <img src="/portfolio/images/graphic.png" alt="photography" />
               </div>
               <div
                 className={`work-panel-btn ${isHoveringWeb ? "active" : ""}`}
@@ -163,7 +166,7 @@ export const WorkPanel = () => {
                 <span className="overlay"></span>
                 <span className="tile-title">Web</span>
                 <Link to="/category/Web"></Link>
-                <img src="../images/web.png" alt="photography" />
+                <img src="/portfolio/images/web.png" alt="photography" />
               </div>
             </div>
           </div>

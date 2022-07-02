@@ -653,6 +653,8 @@ a:hover.go-to-site-btn {
   max-width: 138px;
   border: none;
   color: #fff;
+  display: flex;
+  min-height: 56px;
 }
 .email-form-btn:hover {
   background-color: var(--custom-red);

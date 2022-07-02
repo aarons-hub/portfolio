@@ -81,7 +81,7 @@ export const Welcome = () => {
                 transform="translate(391.248 762.396)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Path_478-2"
@@ -90,7 +90,7 @@ export const Welcome = () => {
                 transform="translate(-30.002 762.396)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Ellipse_3"
@@ -99,7 +99,7 @@ export const Welcome = () => {
                 transform="translate(1215.523 757.072)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Path_481"
@@ -108,7 +108,7 @@ export const Welcome = () => {
                 transform="translate(755.461 761.391)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="path1450"
@@ -116,7 +116,7 @@ export const Welcome = () => {
                 transform="translate(367.551 761.316)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
             </g>
           </svg>

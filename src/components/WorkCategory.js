@@ -12,7 +12,7 @@ export const WorkCategory = () => {
   const [data, setData] = useState([]);
   const [filtered, setFiltered] = useState([]);
 
-  const API_URI = "../data.json";
+  const API_URI = "/portfolio/data.json";
 
   useEffect(() => {
     fetchData();

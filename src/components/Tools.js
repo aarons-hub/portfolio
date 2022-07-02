@@ -25,7 +25,7 @@ export const Tools = () => {
                 transform="translate(19506.609 5749)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <circle
                 id="Ellipse_23"
@@ -36,7 +36,7 @@ export const Tools = () => {
                 transform="translate(19949.744 5749)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Path_484"
@@ -45,7 +45,7 @@ export const Tools = () => {
                 transform="translate(19795.262 5754.08)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Path_485"
@@ -54,7 +54,7 @@ export const Tools = () => {
                 transform="translate(19642.201 5746.535)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
               <path
                 id="Path_481"
@@ -63,7 +63,7 @@ export const Tools = () => {
                 transform="translate(18266.252 5758.75)"
                 fill="#18262f"
                 stroke="#707070"
-                stroke-width="1"
+                strokeWidth="1"
               />
             </g>
           </svg>
@@ -126,20 +126,20 @@ export const Tools = () => {
           <div className="zone-inner tools">
             <h1 className="zone-heading">Tools</h1>
             <div className="icons-wrapper">
-              <img src="../images/html-icon.png" />
-              <img src="../images/css-icon.png" />
-              <img src="../images/js-icon.png" />
-              <img src="../images/mysql-icon.png" />
-              <img src="../images/visual-studio-icon.png" />
-              <img src="../images/xd-icon.png" />
-              <img src="../images/acrobat-icon.png" />
-              <img src="../images/bridge-icon.png" />
-              <img src="../images/dimensions-icon.png" />
-              <img src="../images/dreamweaver-icon.png" />
-              <img src="../images/illustrator-icon.png" />
-              <img src="../images/indesign-icon.png" />
-              <img src="../images/jquery-icon.png" />
-              <img src="../images/git-icon.png" />
+              <img src="/portfolio/images/html-icon.png" />
+              <img src="/portfolio/images/css-icon.png" />
+              <img src="/portfolio/images/js-icon.png" />
+              <img src="/portfolio/images/mysql-icon.png" />
+              <img src="/portfolio/images/visual-studio-icon.png" />
+              <img src="/portfolio/images/xd-icon.png" />
+              <img src="/portfolio/images/acrobat-icon.png" />
+              <img src="/portfolio/images/bridge-icon.png" />
+              <img src="/portfolio/images/dimensions-icon.png" />
+              <img src="/portfolio/images/dreamweaver-icon.png" />
+              <img src="/portfolio/images/illustrator-icon.png" />
+              <img src="/portfolio/images/indesign-icon.png" />
+              <img src="/portfolio/images/jquery-icon.png" />
+              <img src="/portfolio/images/git-icon.png" />
             </div>
             <div className="tools-description">
               <p>
