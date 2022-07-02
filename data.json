@@ -1,14 +1,13 @@
 [
   {
     "id": 1,
-    "image": "../images/cmyk_dots.jpg",
+    "image": "/portfolio/images/cmyk_dots.jpg",
     "title": "About",
-    "content": "Positional text only. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum nibh, fermentum non, adipiscing bibendum, facilisis non, nisi. Aliquam tristique velit at massa. Suspendisse et nulla. Suspendisse eu sem. Duis ultrices, velit sed faucibus faucibus, elit sapien lobortis augue, et sagittis leo tortor vehicula ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper luctus felis. Phasellus sapien. Nulla iaculis nisi non nibh. Sed aliquet ipsum et enim. Donec molestie, dui quis commodo molestie, felis turpis viverra elit, sed vestibulum quam felis pretium tellus. Sed eu lacus. Aliquam massa mauris, commodo vehicula, tincidunt quis, adipiscing vitae, dolor. Vestibulum lacinia erat at diam.",
-    "category": "Misc"
+    "content": "Positional text only. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum nibh, fermentum non, adipiscing bibendum, facilisis non, nisi. Aliquam tristique velit at massa. Suspendisse et nulla. Suspendisse eu sem. Duis ultrices, velit sed faucibus faucibus, elit sapien lobortis augue, et sagittis leo tortor vehicula ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper luctus felis. Phasellus sapien. Nulla iaculis nisi non nibh. Sed aliquet ipsum et enim. Donec molestie, dui quis commodo molestie, felis turpis viverra elit, sed vestibulum quam felis pretium tellus. Sed eu lacus. Aliquam massa mauris, commodo vehicula, tincidunt quis, adipiscing vitae, dolor. Vestibulum lacinia erat at diam."
   },
   {
     "id": 2,
-    "image": "../images/reclaim-web.png",
+    "image": "/portfolio/images/reclaim-web.png",
     "title": "Reclaim Health and Rehabilitation",
     "content": "Relclaim Health and Rehabilitation physiotherapy services. Built on Wordpress 6.0 with full site editing capabilities.",
     "category": "Web",
@@ -17,7 +16,7 @@
   },
   {
     "id": 3,
-    "image": "../images/bce-home-page.png",
+    "image": "/portfolio/images/bce-home-page.png",
     "title": "Brisbane Catholic Education public site",
     "content": "Brisbane Catholic Education head office public facing website. Built on SharePoint 2016. https://www.bne.catholic.edu.au/schools-curriculum/find-a-school/Pages/default.aspx",
     "category": "Web",
@@ -26,7 +25,7 @@
   },
   {
     "id": 4,
-    "image": "../images/bce-find-a-catholic-school.png",
+    "image": "/portfolio/images/bce-find-a-catholic-school.png",
     "title": "Brisbane Catholic Education Find a Catholic School page",
     "content": "Brisbane Catholic Education Find a Catholic School page. Built on SharePoint 2016. Leveraging SharePoint API and Google Maps API. Jquery used for interactivity",
     "category": "Web",
@@ -35,7 +34,7 @@
   },
   {
     "id": 5,
-    "image": "../images/sophia-college-web.png",
+    "image": "/portfolio/images/sophia-college-web.png",
     "title": "Sophia College Plainland school site",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -44,7 +43,7 @@
   },
   {
     "id": 6,
-    "image": "../images/st-peter-claver-college.png",
+    "image": "/portfolio/images/st-peter-claver-college.png",
     "title": "St Peter Claver College",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -53,7 +52,7 @@
   },
   {
     "id": 7,
-    "image": "../images/aquinas-college.png",
+    "image": "/portfolio/images/aquinas-college.png",
     "title": "Aquinas Catholic College",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -62,7 +61,7 @@
   },
   {
     "id": 8,
-    "image": "../images/st-michaels-college.png",
+    "image": "/portfolio/images/st-michaels-college.png",
     "title": "St Michael's Catholic College",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -71,7 +70,7 @@
   },
   {
     "id": 9,
-    "image": "../images/st-thomas-more-college.png",
+    "image": "/portfolio/images/st-thomas-more-college.png",
     "title": "St Thomas More Catholic College",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -80,7 +79,7 @@
   },
   {
     "id": 10,
-    "image": "../images/sts-peter-and-paul-school.png",
+    "image": "/portfolio/images/sts-peter-and-paul-school.png",
     "title": "St Peters and Paul's Catholic School",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -89,7 +88,7 @@
   },
   {
     "id": 11,
-    "image": "../images/unity-college.png",
+    "image": "/portfolio/images/unity-college.png",
     "title": "Unity Catholic College",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -98,7 +97,7 @@
   },
   {
     "id": 12,
-    "image": "../images/carmel-college.png",
+    "image": "/portfolio/images/carmel-college.png",
     "title": "Carmel Catholic College",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -107,7 +106,7 @@
   },
   {
     "id": 49,
-    "image": "../images/st-teresa-college-site.png",
+    "image": "/portfolio/images/st-teresa-college-site.png",
     "title": "St Teresa's Catholic College",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -116,91 +115,91 @@
   },
   {
     "id": 13,
-    "image": "../images/ism-logo.png",
+    "image": "/portfolio/images/ism-logo.png",
     "title": "Industrial Sugar Mills Proprietary Limited",
     "content": "Illustrator",
     "category": "Graphics"
   },
   {
     "id": 14,
-    "image": "../images/ansa-plumbing-logo.png",
+    "image": "/portfolio/images/ansa-plumbing-logo.png",
     "title": "ANSA Plumbing Logo",
     "content": "",
     "category": "Graphics"
   },
   {
     "id": 15,
-    "image": "../images/global-logo.png",
+    "image": "/portfolio/images/global-logo.png",
     "title": "Global Satilite Solutions",
     "content": "",
     "category": "Graphics"
   },
   {
     "id": 16,
-    "image": "../images/urban-clean-logo.png",
+    "image": "/portfolio/images/urban-clean-logo.png",
     "title": "Urban Clean Cleaning Services",
     "content": "",
     "category": "Graphics"
   },
   {
     "id": 18,
-    "image": "../images/qld-ultrasound-logo.png",
+    "image": "/portfolio/images/qld-ultrasound-logo.png",
     "title": "Queensland Ultrasound for Women",
     "content": "",
     "category": "Graphics"
   },
   {
     "id": 19,
-    "image": "../images/core-fusion-logo.png",
+    "image": "/portfolio/images/core-fusion-logo.png",
     "title": "Core Fusion Surfwear",
     "content": "",
     "category": "Graphics"
   },
   {
     "id": 20,
-    "image": "../images/capital-home-loans-logo.png",
+    "image": "/portfolio/images/capital-home-loans-logo.png",
     "title": "Capital Home Loans",
     "content": "",
     "category": "Graphics"
   },
   {
     "id": 21,
-    "image": "../images/bolliger-logo.png",
+    "image": "/portfolio/images/bolliger-logo.png",
     "title": "Bolliger Promotions - Promotional Products",
     "content": "",
     "category": "Graphics"
   },
   {
     "id": 22,
-    "image": "../images/isaso-compliance-logo.png",
+    "image": "/portfolio/images/isaso-compliance-logo.png",
     "title": "ISASO Vehicle Compliance Company",
     "content": "",
     "category": "Graphics"
   },
   {
     "id": 23,
-    "image": "../images/spirit-house-logo.png",
+    "image": "/portfolio/images/spirit-house-logo.png",
     "title": "Spirit House Restaurant",
     "content": "",
     "category": "Graphics"
   },
   {
     "id": 24,
-    "image": "../images/southern-mangoes.png",
+    "image": "/portfolio/images/southern-mangoes.png",
     "title": "Southern Mangoes",
     "content": "",
     "category": "Graphics"
   },
   {
     "id": 17,
-    "image": "../images/kidszkombo.jpg",
+    "image": "/portfolio/images/kidszkombo.jpg",
     "title": "Kidz Combo - Birch Carol Coyle",
     "content": "",
     "category": "Graphics"
   },
   {
     "id": 25,
-    "image": "../images/DSCF8695.jpg",
+    "image": "/portfolio/images/DSCF8695.jpg",
     "title": "Brisbane Urology Clinic",
     "content": "",
     "category": "Photography",
@@ -208,35 +207,35 @@
   },
   {
     "id": 26,
-    "image": "../images/DSCF5209.jpg",
+    "image": "/portfolio/images/DSCF5209.jpg",
     "title": "Brisbane Urology Clinic",
     "content": "",
     "category": "Photography"
   },
   {
     "id": 27,
-    "image": "../images/DSCF6858.jpg",
+    "image": "/portfolio/images/DSCF6858.jpg",
     "title": "Commercial Furniture Australia",
     "content": "",
     "category": "Photography"
   },
   {
     "id": 28,
-    "image": "../images/porsche_poster.jpg",
+    "image": "/portfolio/images/porsche_poster.jpg",
     "title": "Private",
     "content": "",
     "category": "Photography"
   },
   {
     "id": 29,
-    "image": "../images/ilovehampers-logo.png",
+    "image": "/portfolio/images/ilovehampers-logo.png",
     "title": "I Love Hampers Company",
     "content": "",
     "category": "Graphics"
   },
   {
     "id": 30,
-    "image": "../images/confirmation.jpg",
+    "image": "/portfolio/images/confirmation.jpg",
     "title": "Private",
     "content": "",
     "category": "Photography",
@@ -244,14 +243,14 @@
   },
   {
     "id": 31,
-    "image": "../images/CFA-Cat-2007-01.jpg",
+    "image": "/portfolio/images/CFA-Cat-2007-01.jpg",
     "title": "Commercial Furniture Australia",
     "content": "",
     "category": "Graphics"
   },
   {
     "id": 32,
-    "image": "../images/DSCF7051.jpg",
+    "image": "/portfolio/images/DSCF7051.jpg",
     "title": "Private",
     "content": "",
     "category": "Photography",
@@ -259,7 +258,7 @@
   },
   {
     "id": 33,
-    "image": "../images/DSCF7140.jpg",
+    "image": "/portfolio/images/DSCF7140.jpg",
     "title": "Private",
     "content": "",
     "category": "Photography",
@@ -267,7 +266,7 @@
   },
   {
     "id": 34,
-    "image": "../images/DSCF7084.jpg",
+    "image": "/portfolio/images/DSCF7084.jpg",
     "title": "Private",
     "content": "",
     "category": "Photography",
@@ -275,7 +274,7 @@
   },
   {
     "id": 35,
-    "image": "../images/DSCF7197.jpg",
+    "image": "/portfolio/images/DSCF7197.jpg",
     "title": "Private",
     "content": "",
     "category": "Photography",
@@ -283,70 +282,70 @@
   },
   {
     "id": 37,
-    "image": "../images/DSCF6777.jpg",
+    "image": "/portfolio/images/DSCF6777.jpg",
     "title": "Smoke study",
     "content": "",
     "category": "Photography"
   },
   {
     "id": 38,
-    "image": "../images/DSCF6556.jpg",
+    "image": "/portfolio/images/DSCF6556.jpg",
     "title": "Smoke study",
     "content": "",
     "category": "Photography"
   },
   {
     "id": 39,
-    "image": "../images/DSCF6463.jpg",
+    "image": "/portfolio/images/DSCF6463.jpg",
     "title": "Smoke study",
     "content": "",
     "category": "Photography"
   },
   {
     "id": 40,
-    "image": "../images/DSCF6449.jpg",
+    "image": "/portfolio/images/DSCF6449.jpg",
     "title": "Smoke study",
     "content": "",
     "category": "Photography"
   },
   {
     "id": 41,
-    "image": "../images/DSC_4083.jpg",
+    "image": "/portfolio/images/DSC_4083.jpg",
     "title": "Skating on Sandgate Road - book production.",
     "content": "",
     "category": "Photography"
   },
   {
     "id": 42,
-    "image": "../images/DSC_4100.jpg",
+    "image": "/portfolio/images/DSC_4100.jpg",
     "title": "Skating on Sandgate Road - book production.",
     "content": "",
     "category": "Photography"
   },
   {
     "id": 43,
-    "image": "../images/DSC_4146.jpg",
+    "image": "/portfolio/images/DSC_4146.jpg",
     "title": "Skating on Sandgate Road - book production.",
     "content": "",
     "category": "Photography"
   },
   {
     "id": 44,
-    "image": "../images/DSC_4165.jpg",
+    "image": "/portfolio/images/DSC_4165.jpg",
     "title": "Skating on Sandgate Road - book production.",
     "content": "",
     "category": "Photography"
   },
   {
     "id": 45,
-    "image": "../images/DSC_4069.jpg",
+    "image": "/portfolio/images/DSC_4069.jpg",
     "title": "Skating on Sandgate Road - book production.",
     "content": "",
     "category": "Photography"
   },
   {
     "id": 36,
-    "image": "../images/DSC_1030.jpg",
+    "image": "/portfolio/images/DSC_1030.jpg",
     "title": "Brisbane Urology Clinic",
     "content": "",
     "category": "Photography",
@@ -354,7 +353,7 @@
   },
   {
     "id": 46,
-    "image": "../images/DSC_1862.jpg",
+    "image": "/portfolio/images/DSC_1862.jpg",
     "title": "CPA Printing",
     "content": "",
     "category": "Photography",
@@ -362,7 +361,7 @@
   },
   {
     "id": 47,
-    "image": "../images/DSC_3023_025.jpg",
+    "image": "/portfolio/images/DSC_3023_025.jpg",
     "title": "CPA Printing",
     "content": "",
     "category": "Photography",
@@ -370,7 +369,7 @@
   },
   {
     "id": 48,
-    "image": "../images/DSCF0252.jpg",
+    "image": "/portfolio/images/DSCF0252.jpg",
     "title": "Study",
     "content": "",
     "category": "Photography",
