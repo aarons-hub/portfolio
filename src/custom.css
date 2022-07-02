@@ -656,7 +656,7 @@ a:hover.go-to-site-btn {
   border: none;
   color: #fff;
   display: flex;
-  min-height: 56px;
+  height: 56px;
 }
 .email-form-btn:hover {
   background-color: var(--custom-red);
