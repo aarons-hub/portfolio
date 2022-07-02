@@ -7,7 +7,7 @@
   },
   {
     "id": 2,
-    "image": "/portfolio/images/reclaim-web.png",
+    "image": "/portfolio/images/reclaim-web.jpg",
     "title": "Reclaim Health and Rehabilitation",
     "content": "Relclaim Health and Rehabilitation physiotherapy services. Built on Wordpress 6.0 with full site editing capabilities.",
     "category": "Web",
@@ -16,7 +16,7 @@
   },
   {
     "id": 3,
-    "image": "/portfolio/images/bce-home-page.png",
+    "image": "/portfolio/images/bce-home-page.jpg",
     "title": "Brisbane Catholic Education public site",
     "content": "Brisbane Catholic Education head office public facing website. Built on SharePoint 2016. https://www.bne.catholic.edu.au/schools-curriculum/find-a-school/Pages/default.aspx",
     "category": "Web",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "image": "/portfolio/images/bce-find-a-catholic-school.png",
+    "image": "/portfolio/images/bce-find-a-catholic-school.jpg",
     "title": "Brisbane Catholic Education Find a Catholic School page",
     "content": "Brisbane Catholic Education Find a Catholic School page. Built on SharePoint 2016. Leveraging SharePoint API and Google Maps API. Jquery used for interactivity",
     "category": "Web",
@@ -34,7 +34,7 @@
   },
   {
     "id": 5,
-    "image": "/portfolio/images/sophia-college-web.png",
+    "image": "/portfolio/images/sophia-college-web.jpg",
     "title": "Sophia College Plainland school site",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -43,7 +43,7 @@
   },
   {
     "id": 6,
-    "image": "/portfolio/images/st-peter-claver-college.png",
+    "image": "/portfolio/images/st-peter-claver-college.jpg",
     "title": "St Peter Claver College",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -52,7 +52,7 @@
   },
   {
     "id": 7,
-    "image": "/portfolio/images/aquinas-college.png",
+    "image": "/portfolio/images/aquinas-college.jpg",
     "title": "Aquinas Catholic College",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -61,7 +61,7 @@
   },
   {
     "id": 8,
-    "image": "/portfolio/images/st-michaels-college.png",
+    "image": "/portfolio/images/st-michaels-college.jpg",
     "title": "St Michael's Catholic College",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -70,7 +70,7 @@
   },
   {
     "id": 9,
-    "image": "/portfolio/images/st-thomas-more-college.png",
+    "image": "/portfolio/images/st-thomas-more-college.jpg",
     "title": "St Thomas More Catholic College",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -79,7 +79,7 @@
   },
   {
     "id": 10,
-    "image": "/portfolio/images/sts-peter-and-paul-school.png",
+    "image": "/portfolio/images/sts-peter-and-paul-school.jpg",
     "title": "St Peters and Paul's Catholic School",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -88,7 +88,7 @@
   },
   {
     "id": 11,
-    "image": "/portfolio/images/unity-college.png",
+    "image": "/portfolio/images/unity-college.jpg",
     "title": "Unity Catholic College",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -97,7 +97,7 @@
   },
   {
     "id": 12,
-    "image": "/portfolio/images/carmel-college.png",
+    "image": "/portfolio/images/carmel-college.jpg",
     "title": "Carmel Catholic College",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",
@@ -106,7 +106,7 @@
   },
   {
     "id": 49,
-    "image": "/portfolio/images/st-teresa-college-site.png",
+    "image": "/portfolio/images/st-teresa-college-site.jpg",
     "title": "St Teresa's Catholic College",
     "content": "Built on SharePoint 2016. CSS3 and jQuery.",
     "category": "Web",

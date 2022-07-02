@@ -154,12 +154,17 @@ export const Contact = () => {
               </div>
               <div className="zone-col">
                 <h2>Email me at</h2>
-                <a href="mailto:aaron.leigh.sanders@gmail.com">
+                <a
+                  className="contact"
+                  href="mailto:aaron.leigh.sanders@gmail.com"
+                >
                   aaron.leigh.sanders@gmail.com
                 </a>
                 <div className="phone-container">
                   <h2>Call me at</h2>
-                  <a href="tel:0424854380">0424 854 390</a>
+                  <a className="contact" href="tel:0424854380">
+                    0424 854 390
+                  </a>
                 </div>
               </div>
             </div>
