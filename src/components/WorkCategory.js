@@ -87,7 +87,13 @@ export const WorkCategory = () => {
           </svg>
         </div>
         <div className="work-wrapper">
-          <h2 className="custom-heading">{cat}</h2>
+          <div className="category-title-and-btn">
+            <h2 className="custom-heading">{cat}</h2>
+            <Link to={"/worklandingpage"} className="go-back-btn work-category">
+              Go back
+            </Link>
+          </div>
+
           <div className="work-container">
             {filterCat.map((i) => {
               return (

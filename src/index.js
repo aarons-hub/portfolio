@@ -8,8 +8,6 @@ import {
 } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import "./custom.css";
-import { Work } from "./components/Work";
-import { WorkDetails } from "./components/WorkDetails";
 import { WorkCategory } from "./components/WorkCategory";
 import { Home } from "./components/Home";
 import { CategoryDetails } from "./components/CategoryDetails";
@@ -18,6 +16,7 @@ import { Header } from "./components/Header";
 import { Contact } from "./components/Contact";
 import { WorkPanel } from "./components/WorkPanel";
 import { Tools } from "./components/Tools";
+import { WorkLandingPage } from "./components/WorkLandingPage";
 import Moment from "moment";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -27,7 +26,6 @@ const formatCopyright = Moment().format("YYYY");
 
 root.render(
   <>
-    <div className="date bne-date">{formatDate}</div>
     <div className="custom-container">
       <div className="custom-inner-container">
         <div className="custom-inner">
@@ -35,7 +33,6 @@ root.render(
             <Header />
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="work" element={<Work />} />
               <Route path="/category/:cat" element={<WorkCategory />} />
               <Route
                 path="/categorydetails/:id"
@@ -45,13 +42,19 @@ root.render(
               <Route path="/contact" element={<Contact />} />
               <Route path="/workpanel" element={<WorkPanel />} />
               <Route path="/tools" element={<Tools />} />
+              <Route path="/worklandingpage" element={<WorkLandingPage />} />
             </Routes>
           </HashRouter>
         </div>
       </div>
     </div>
-    <div className="copyright">
-      <div className="copyright-contents">ⓒ{formatCopyright}</div>
+    <div className="date-copyright">
+      <div className="col">
+        <div className="date bne-date">{formatDate}</div>
+      </div>
+      <div className="col">
+        <div className="copyright-contents">ⓒ{formatCopyright}</div>
+      </div>
     </div>
   </>
 );

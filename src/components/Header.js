@@ -93,7 +93,7 @@ export const Header = () => {
                     transform="translate(5360.5 -46.5)"
                     fill="none"
                     stroke="#febe1e"
-                    stroke-width="3"
+                    strokeWidth="3"
                   />
                   <line
                     id="Line_2"
@@ -103,7 +103,7 @@ export const Header = () => {
                     transform="translate(5360.5 -46.5)"
                     fill="none"
                     stroke="#febe1e"
-                    stroke-width="3"
+                    strokeWidth="3"
                   />
                 </g>
               </svg>
@@ -120,7 +120,7 @@ export const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link onClick={closeMenu} to="/workpanel">
+                <Link onClick={closeMenu} to="/worklandingpage">
                   Work
                 </Link>
                 <ul className="dropdown">
@@ -137,6 +137,11 @@ export const Header = () => {
                   <li>
                     <Link onClick={closeMenu} to="/category/Graphics">
                       Graphics
+                    </Link>
+                  </li>
+                  <li>
+                    <Link onClick={closeMenu} to="/category/Print">
+                      Print
                     </Link>
                   </li>
                 </ul>

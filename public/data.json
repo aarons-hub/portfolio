@@ -2,8 +2,9 @@
   {
     "id": 1,
     "image": "/portfolio/images/cmyk_dots.jpg",
-    "title": "About",
-    "content": "Positional text only. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum nibh, fermentum non, adipiscing bibendum, facilisis non, nisi. Aliquam tristique velit at massa. Suspendisse et nulla. Suspendisse eu sem. Duis ultrices, velit sed faucibus faucibus, elit sapien lobortis augue, et sagittis leo tortor vehicula ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper luctus felis. Phasellus sapien. Nulla iaculis nisi non nibh. Sed aliquet ipsum et enim. Donec molestie, dui quis commodo molestie, felis turpis viverra elit, sed vestibulum quam felis pretium tellus. Sed eu lacus. Aliquam massa mauris, commodo vehicula, tincidunt quis, adipiscing vitae, dolor. Vestibulum lacinia erat at diam."
+    "title": "Rallings Print Group",
+    "content": "Render for brochure",
+    "category": "Print"
   },
   {
     "id": 2,
@@ -245,8 +246,8 @@
     "id": 31,
     "image": "/portfolio/images/CFA-Cat-2007-01.jpg",
     "title": "Commercial Furniture Australia",
-    "content": "",
-    "category": "Graphics"
+    "content": "Brochure design and pre-press production.",
+    "category": "Print"
   },
   {
     "id": 32,
@@ -374,5 +375,75 @@
     "content": "",
     "category": "Photography",
     "objectposition": "15%"
+  },
+  {
+    "id": 50,
+    "image": "/portfolio/images/Staxis-Brochure-2.jpg",
+    "title": "Commercial Furniture Australia",
+    "content": "Inside pages",
+    "category": "Print"
+  },
+  {
+    "id": 51,
+    "image": "/portfolio/images/Staxis-Brochure-1.jpg",
+    "title": "Commercial Furniture Australia",
+    "content": "Front and back cover",
+    "category": "Print"
+  },
+  {
+    "id": 52,
+    "image": "/portfolio/images/staxis-render.jpg",
+    "title": "Commercial Furniture Australia",
+    "content": "Staxis brochure rendering",
+    "category": "Print"
+  },
+  {
+    "id": 53,
+    "image": "/portfolio/images/ralling-print-group-dl.jpg",
+    "title": "Ralling Print Group",
+    "content": "DL size brochure",
+    "category": "Print"
+  },
+  {
+    "id": 54,
+    "image": "/portfolio/images/canterbury-college-year-book.jpg",
+    "title": "Canterbury College",
+    "content": "Year book",
+    "category": "Print"
+  },
+  {
+    "id": 55,
+    "image": "/portfolio/images/opal-search-dl.jpg",
+    "title": "Opal Search Australia",
+    "content": "DL size brochure",
+    "category": "Print"
+  },
+  {
+    "id": 56,
+    "image": "/portfolio/images/cfa-catalogue.jpg",
+    "title": "Commercial Furniture Australia",
+    "content": "Catalogue production",
+    "category": "Print"
+  },
+  {
+    "id": 57,
+    "image": "/portfolio/images/opal-photo.jpg",
+    "title": "Opal Search Australia",
+    "content": "",
+    "category": "Photography"
+  },
+  {
+    "id": 58,
+    "image": "/portfolio/images/various-illustrations.jpg",
+    "title": "Australia Rubber Company",
+    "content": "Various illustrations",
+    "category": "Graphics"
+  },
+  {
+    "id": 59,
+    "image": "/portfolio/images/staxis_scene.jpg",
+    "title": "Commercial Furniture Australia",
+    "content": "Workstation illustration",
+    "category": "Graphics"
   }
 ]

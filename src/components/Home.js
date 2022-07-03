@@ -1,11 +1,10 @@
 import React from "react";
 import { About } from "./About";
 import { Welcome } from "./Welcome";
-import { WorkPanel } from "./WorkPanel";
 import { Tools } from "./Tools";
 import { Contact } from "./Contact";
 import { Spacer } from "./Spacer";
-import { Header } from "./Header";
+import { WorkLandingPage } from "./WorkLandingPage";
 
 export const Home = () => {
   return (
@@ -14,7 +13,7 @@ export const Home = () => {
       <Spacer />
       <About />
       <Spacer />
-      <WorkPanel />
+      <WorkLandingPage />
       <Spacer />
       <Tools />
       <Spacer />
