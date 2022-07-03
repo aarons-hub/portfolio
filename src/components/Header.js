@@ -1,7 +1,18 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { useState } from "react";
 
 export const Header = () => {
+  const [active, setActive] = useState(false);
+
+  const showMenu = () => {
+    setActive(true);
+  };
+
+  const closeMenu = () => {
+    setActive(false);
+  };
+
   return (
     <>
       <div className="header-wrapper">
@@ -58,36 +69,129 @@ export const Header = () => {
         </Link>
 
         <div className="menu-container">
-          <nav className="custom-nav" role="navigation">
+          <nav
+            className={`custom-nav ${active ? "responsive" : "not-responsive"}`}
+            role="navigation"
+          >
+            <button className="nav-close-btn" onClick={closeMenu}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16.121"
+                height="16.121"
+                viewBox="0 0 16.121 16.121"
+              >
+                <g
+                  id="Group_270"
+                  data-name="Group 270"
+                  transform="translate(-5359.439 47.561)"
+                >
+                  <line
+                    id="Line_1"
+                    data-name="Line 1"
+                    x2="14"
+                    y2="14"
+                    transform="translate(5360.5 -46.5)"
+                    fill="none"
+                    stroke="#febe1e"
+                    stroke-width="3"
+                  />
+                  <line
+                    id="Line_2"
+                    data-name="Line 2"
+                    x1="14"
+                    y2="14"
+                    transform="translate(5360.5 -46.5)"
+                    fill="none"
+                    stroke="#febe1e"
+                    stroke-width="3"
+                  />
+                </g>
+              </svg>
+            </button>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link onClick={closeMenu} to="/">
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link onClick={closeMenu} to="/about">
+                  About
+                </Link>
               </li>
               <li>
-                <Link to="/workpanel">Work</Link>
+                <Link onClick={closeMenu} to="/workpanel">
+                  Work
+                </Link>
                 <ul className="dropdown">
                   <li>
-                    <Link to="/category/Web">Web</Link>
+                    <Link onClick={closeMenu} to="/category/Web">
+                      Web
+                    </Link>
                   </li>
                   <li>
-                    <Link to="/category/Photography">Photography</Link>
+                    <Link onClick={closeMenu} to="/category/Photography">
+                      Photography
+                    </Link>
                   </li>
                   <li>
-                    <Link to="/category/Graphics">Graphics</Link>
+                    <Link onClick={closeMenu} to="/category/Graphics">
+                      Graphics
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <Link to="/tools">Tools</Link>
+                <Link onClick={closeMenu} to="/tools">
+                  Tools
+                </Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link onClick={closeMenu} to="/contact">
+                  Contact
+                </Link>
               </li>
             </ul>
           </nav>
+          <button className="nav-btn" onClick={showMenu}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="15"
+              viewBox="0 0 32 15"
+            >
+              <g
+                id="Group_269"
+                data-name="Group 269"
+                transform="translate(-1758 -28)"
+              >
+                <rect
+                  id="Rectangle_484"
+                  data-name="Rectangle 484"
+                  width="32"
+                  height="3"
+                  transform="translate(1758 28)"
+                  fill="#febe1e"
+                />
+                <rect
+                  id="Rectangle_485"
+                  data-name="Rectangle 485"
+                  width="32"
+                  height="3"
+                  transform="translate(1758 34)"
+                  fill="#febe1e"
+                />
+                <rect
+                  id="Rectangle_486"
+                  data-name="Rectangle 486"
+                  width="32"
+                  height="3"
+                  transform="translate(1758 40)"
+                  fill="#febe1e"
+                />
+              </g>
+            </svg>
+          </button>
         </div>
       </div>
     </>
