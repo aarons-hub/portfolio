@@ -132,22 +132,22 @@ h2.custom-heading {
   min-height: 200px;
 }
 .image img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  border: none;
   bottom: 0;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  box-shadow: none;
   height: 100%;
-  max-width: none;
+  left: 0;
+  margin: 0;
   max-height: none;
-  -o-object-fit: cover;
+  max-width: none;
   object-fit: cover;
   outline: none;
-  border: none;
-  box-shadow: none;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  will-change: transform;
 }
 .detail-container {
   box-sizing: border-box;
