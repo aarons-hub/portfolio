@@ -88,6 +88,7 @@ a {
 }
 .work-header-svg svg {
   width: 100%;
+  height: inherit;
 }
 h1.custom-heading {
   color: #fff;
@@ -102,6 +103,9 @@ h2.custom-heading {
   box-sizing: border-box;
   position: relative;
   padding: 0px 40px 40px 40px;
+}
+.custom-heading.category {
+  font-size: 28px;
 }
 .work-wrapper {
   box-sizing: border-box;
@@ -260,6 +264,9 @@ a:hover.go-to-site-btn {
   text-align: center;
   box-sizing: border-box;
   padding: 93px 0px 186px 0px;
+}
+.image-about {
+  max-width: 200px;
 }
 .about-container {
   max-width: var(--custom-max-width);
@@ -497,15 +504,14 @@ a:hover.go-to-site-btn {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #febe1edb;
 }
 .title {
   position: relative;
-  color: var(--custom-gray);
+  color: #fff;
   font-size: 18px;
   font-family: var(--custom-font-bold);
   font-weight: 700;
-  background-color: var(--custom-yellow);
   box-sizing: border-box;
   padding: 12px 30px;
   border-radius: 30px;
@@ -693,9 +699,9 @@ a:hover.go-to-site-btn {
   max-width: 138px;
   border: none;
   color: #fff;
-  display: flex;
   height: 56px;
   text-align: center;
+  font-size: 14px;
 }
 .email-form-btn:hover {
   background-color: var(--custom-red);
@@ -742,11 +748,10 @@ a:hover.go-to-site-btn {
 .zone-svg.about {
   margin-top: 57px;
 }
-
 .zone-inner.welcome h1.zone-heading {
   text-align: center;
-  padding-top: 0px;
-  padding-bottom: 229px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .zone-svg-heading.welcome {
   justify-content: flex-end;
@@ -859,7 +864,7 @@ a.contact {
   color: black;
   cursor: pointer;
   box-sizing: border-box;
-  padding: 50px;
+  padding: 40px;
   display: none;
   width: 50vw;
   position: fixed;
@@ -867,7 +872,6 @@ a.contact {
   top: 0;
   height: 100%;
 }
-
 .date-copyright {
   display: flex;
   justify-content: space-between;
@@ -895,6 +899,7 @@ a.contact {
 }
 .zone-container.welcome {
   background-position: 50% 100%;
+  height: 80vh;
 }
 .zone-svg-heading.worklanding,
 .zone-svg-heading.contact {
@@ -942,12 +947,17 @@ a.contact {
 @media only screen and (max-width: 1100px) {
   .zone-svg-heading svg {
     width: 100%;
+    height: inherit;
   }
   .zone-container {
     height: inherit;
   }
   .zone-inner.welcome h1.zone-heading {
-    padding-top: 176px;
+    padding-top: 90px;
+  }
+  .zone-container {
+    background-size: inherit;
+    background-position: 0% 0%;
   }
 }
 
@@ -961,6 +971,18 @@ a.contact {
     flex-direction: column;
   }
   .work-panel-btn {
-    height: 140px;
+    width: 100px;
+    height: 100px;
+  }
+  .title {
+    font-size: 14px;
+    padding: 7px 18px;
+  }
+  .zone-row {
+    margin-top: 15px;
+    gap: 0px;
+  }
+  .icons-wrapper {
+    padding: 30px 60px 15px 0px;
   }
 }

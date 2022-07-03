@@ -9,7 +9,7 @@ export const Welcome = () => {
             <h1 className="zone-heading">
               Hi, i'm Aaron
               <br />
-              how may I help you?
+              how may I&nbsp;help you?
             </h1>
           </div>
           <div className="zone-svg-heading welcome">

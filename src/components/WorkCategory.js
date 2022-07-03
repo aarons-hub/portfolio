@@ -88,7 +88,7 @@ export const WorkCategory = () => {
         </div>
         <div className="work-wrapper">
           <div className="category-title-and-btn">
-            <h2 className="custom-heading">{cat}</h2>
+            <h2 className="custom-heading category">{cat}</h2>
             <Link to={"/worklandingpage"} className="go-back-btn work-category">
               Go back
             </Link>
