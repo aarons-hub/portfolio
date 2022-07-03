@@ -955,13 +955,14 @@ a.contact {
   .zone-inner.welcome h1.zone-heading {
     padding-top: 90px;
   }
-  .zone-container {
+  .zone-container,
+  .zone-container.welcome {
     background-size: inherit;
     background-position: 0% 0%;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   .zone-inner.welcome h1.zone-heading {
     padding-top: 43px;
     padding-bottom: 40px;
@@ -984,5 +985,11 @@ a.contact {
   }
   .icons-wrapper {
     padding: 30px 60px 15px 0px;
+  }
+  .zone-row {
+    flex-direction: column;
+  }
+  .work-wrapper {
+    padding: 0px 0px;
   }
 }
