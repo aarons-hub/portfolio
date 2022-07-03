@@ -495,14 +495,14 @@ a:hover.go-to-site-btn {
   position: relative;
   text-decoration: none;
 }
-.work-panel-btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
+.work-panel-btn:before {
+  background-color: rgba(0, 0, 0, 0.6);
   bottom: 0;
+  content: "";
   left: 0;
-  background-color: #febe1edb;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .title {
   position: relative;
