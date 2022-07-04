@@ -484,9 +484,9 @@ a:hover.go-to-site-btn {
 }
 .work-panel-btn {
   overflow: hidden;
+  width: 200px;
   height: 200px;
   border-radius: 100%;
-  width: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -736,6 +736,7 @@ a:hover.go-to-site-btn {
 }
 .zone-svg-heading {
   display: flex;
+  flex: 1;
 }
 .zone-svg.tools {
   margin-top: 70px;
@@ -869,9 +870,9 @@ a.contact {
   box-sizing: border-box;
   padding: 40px;
   display: none;
-  width: 50vw;
+  width: 30vw;
   position: fixed;
-  left: 50vw;
+  left: 70vw;
   top: 0;
   height: 100%;
 }
@@ -972,7 +973,7 @@ a.home:hover .logo-svg g#Group_233 path#Ellipse_3 {
     height: 100%;
     box-sizing: border-box;
     padding: 40px;
-    width: 50vw;
+    width: 70vw;
   }
   .custom-nav > ul {
     flex-direction: column;
@@ -1020,8 +1021,8 @@ a.home:hover .logo-svg g#Group_233 path#Ellipse_3 {
     flex-direction: column;
   }
   .work-panel-btn {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
   }
   .title {
     font-size: 14px;
