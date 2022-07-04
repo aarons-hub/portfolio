@@ -19,7 +19,7 @@
     "id": 3,
     "image": "/portfolio/images/bce-home-page.jpg",
     "title": "Brisbane Catholic Education public site",
-    "content": "Brisbane Catholic Education head office public facing website. Built on SharePoint 2016. https://www.bne.catholic.edu.au/schools-curriculum/find-a-school/Pages/default.aspx",
+    "content": "Brisbane Catholic Education head office public facing website. Built on SharePoint 2016.",
     "category": "Web",
     "objectposition": "0%",
     "url": "https://www.bne.catholic.edu.au"
@@ -445,5 +445,41 @@
     "title": "Commercial Furniture Australia",
     "content": "Workstation illustration",
     "category": "Graphics"
+  },
+  {
+    "id": 60,
+    "image": "/portfolio/images/staroftheseacleveland.jpg",
+    "title": "Star of the Sea Catholic School",
+    "content": "",
+    "category": "Web",
+    "objectposition": "0%",
+    "url": "http://www.starofthesea.qld.edu.au"
+  },
+  {
+    "id": 61,
+    "image": "/portfolio/images/christthekingdbay.jpg",
+    "title": "Christ the King Primary School",
+    "content": "",
+    "category": "Web",
+    "objectposition": "0%",
+    "url": "http://www.christthekingdbay.qld.edu.au"
+  },
+  {
+    "id": 62,
+    "image": "/portfolio/images/stritasvp.jpg",
+    "title": "St Ita's Primary School",
+    "content": "",
+    "category": "Web",
+    "objectposition": "0%",
+    "url": "http://www.stitasduttonpark.qld.edu.au"
+  },
+  {
+    "id": 63,
+    "image": "/portfolio/images/stc.jpg",
+    "title": "St Columban's College",
+    "content": "",
+    "category": "Web",
+    "objectposition": "0%",
+    "url": "http://www.stc.qld.edu.au"
   }
 ]
