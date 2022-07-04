@@ -145,7 +145,6 @@ h2.custom-heading {
   right: 0;
   top: 0;
   width: 100%;
-  transform: translateZ(1px);
 }
 .detail-container {
   box-sizing: border-box;
@@ -660,6 +659,9 @@ a:hover.go-to-site-btn {
   flex: 1 1;
   color: #fff;
 }
+.zone-col.email {
+  margin-top: 40px;
+}
 .zone-svg.contact {
   margin-top: 48px;
 }
@@ -989,5 +991,10 @@ a.contact {
   }
   .work-wrapper {
     padding: 0px 0px;
+  }
+  .item-container {
+    width: 140px;
+    border-radius: 12px;
+    min-height: 112px;
   }
 }

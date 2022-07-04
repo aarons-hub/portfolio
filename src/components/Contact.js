@@ -74,7 +74,7 @@ export const Contact = () => {
               <div className="zone-col">
                 <Email />
               </div>
-              <div className="zone-col">
+              <div className="zone-col email">
                 <h2>Email me at</h2>
                 <a
                   className="contact"
