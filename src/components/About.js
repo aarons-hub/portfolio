@@ -1,10 +1,15 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 export const About = () => {
   return (
     <>
       <div className="zone-container about">
-        <div className="zone-content about">
+        <motion.div
+          initial={{ opacity: 0, transform: "translateY(1000px)" }}
+          animate={{ opacity: 1, transform: "translateY(0px)" }}
+          className="zone-content about"
+        >
           <div className="zone-svg-heading about">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +99,7 @@ export const About = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );

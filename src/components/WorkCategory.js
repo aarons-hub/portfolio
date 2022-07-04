@@ -7,6 +7,7 @@ import {
   Link,
   useParams,
 } from "react-router-dom";
+import { motion } from "framer-motion";
 
 export const WorkCategory = () => {
   const [data, setData] = useState([]);
@@ -91,9 +92,15 @@ export const WorkCategory = () => {
           </div>
 
           <div className="work-container">
-            {filterCat.map((i) => {
+            {filterCat.map((i, index) => {
               return (
-                <div key={i.id} className="item-container">
+                <motion.div
+                  initial={{ opacity: 0, transform: "translateY(10px)" }}
+                  animate={{ opacity: 1, transform: "translateY(0px)" }}
+                  transition={{ duration: 0.3, delay: index * 0.15 }}
+                  key={i.id}
+                  className="item-container"
+                >
                   <Link to={`/categorydetails/${i.id}`} className="image">
                     <img
                       loading="lazy"
@@ -103,7 +110,7 @@ export const WorkCategory = () => {
                       style={{ objectPosition: `100% ${i.objectposition}` }}
                     />
                   </Link>
-                </div>
+                </motion.div>
               );
             })}
           </div>

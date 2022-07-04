@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 
 export const WorkLandingPage = () => {
   const [data, setData] = useState([]);
@@ -38,7 +39,11 @@ export const WorkLandingPage = () => {
 
   return (
     <div className="zone-container worklanding">
-      <div className="zone-content worklanding">
+      <motion.div
+        initial={{ opacity: 0, transform: "translateY(1000px)" }}
+        animate={{ opacity: 1, transform: "translateY(0px)" }}
+        className="zone-content worklanding"
+      >
         <div className="zone-svg-heading worklanding">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +90,7 @@ export const WorkLandingPage = () => {
         <div className="zone-inner worklanding">
           <ButtonsList />
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

@@ -1,10 +1,15 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 export const Tools = () => {
   return (
     <>
       <div className="zone-container tools">
-        <div className="zone-content tools">
+        <motion.div
+          initial={{ opacity: 0, transform: "translateY(1000px)" }}
+          animate={{ opacity: 1, transform: "translateY(0px)" }}
+          className="zone-content tools"
+        >
           <div className="zone-svg-heading tools">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +92,7 @@ export const Tools = () => {
               </p>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );

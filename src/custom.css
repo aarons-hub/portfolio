@@ -635,7 +635,6 @@ a:hover.go-to-site-btn {
   border: 1px solid black;
 }
 .zone-container {
-  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

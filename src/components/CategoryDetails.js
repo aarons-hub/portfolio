@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
+import { motion } from "framer-motion";
 
 export const CategoryDetails = () => {
   const { id } = useParams();
@@ -72,7 +73,11 @@ export const CategoryDetails = () => {
           </svg>
         </div>
         {found && (
-          <div className="detail-container">
+          <motion.div
+            initial={{ opacity: 0, transform: "translateY(1000px)" }}
+            animate={{ opacity: 1, transform: "translateY(0px)" }}
+            className="detail-container"
+          >
             <div className="btn-wrapper">
               <Link to={`/category/${found.category}`} className="go-back-btn">
                 Go back
@@ -92,7 +97,7 @@ export const CategoryDetails = () => {
             </div>
             <h1 className="detail-heading">{found.title}</h1>
             <p>{found.content}</p>
-          </div>
+          </motion.div>
         )}
       </div>
     </>

@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { Header } from "./Header";
+import { motion } from "framer-motion";
 
 export const WorkDetails = () => {
   const { id } = useParams();
@@ -30,6 +31,7 @@ export const WorkDetails = () => {
   return (
     <>
       <div className="work-container-main">
+        <h1>hello</h1>
         <div className="work-header-svg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +85,11 @@ export const WorkDetails = () => {
           </Link>
         </div>
         {found && (
-          <div className="detail-container">
+          <motion.div
+            initial={{ opacity: 0, transform: "translateY(1000px)" }}
+            animate={{ opacity: 0.5, transform: "translateY(0px)" }}
+            className="detail-container"
+          >
             <div className="detail-image">
               <Link to="/work">
                 <img src={found.image} alt={found.title} loading="lazy" />
@@ -92,7 +98,7 @@ export const WorkDetails = () => {
             <h1 className="detail-heading">{found.title}</h1>
             <p>{found.content}</p>
             <h1>id (remove later): {found.id}</h1>
-          </div>
+          </motion.div>
         )}
       </div>
     </>

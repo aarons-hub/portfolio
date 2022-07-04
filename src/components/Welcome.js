@@ -1,17 +1,23 @@
 import React from "react";
 import { Header } from "./Header";
+import { motion } from "framer-motion";
+
 export const Welcome = () => {
   return (
     <>
       <div className="zone-container welcome">
         <div className="zone-content welcome">
-          <div className="zone-inner welcome">
+          <motion.div
+            initial={{ opacity: 0, transform: "translateY(-100px)" }}
+            animate={{ opacity: 1, transform: "translateY(0px)" }}
+            className="zone-inner welcome"
+          >
             <h1 className="zone-heading">
               Hi, i'm Aaron
               <br />
               how may I&nbsp;help you?
             </h1>
-          </div>
+          </motion.div>
           <div className="zone-svg-heading welcome">
             <svg
               xmlns="http://www.w3.org/2000/svg"

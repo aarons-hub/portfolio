@@ -1,11 +1,16 @@
 import React from "react";
 import { Email } from "./Email";
+import { motion } from "framer-motion";
 
 export const Contact = () => {
   return (
     <>
       <div className="zone-container contact">
-        <div className="zone-content contact">
+        <motion.div
+          initial={{ opacity: 0, transform: "translateY(1000px)" }}
+          animate={{ opacity: 1, transform: "translateY(0px)" }}
+          className="zone-content contact"
+        >
           <div className="zone-svg-heading contact">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +96,7 @@ export const Contact = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );
