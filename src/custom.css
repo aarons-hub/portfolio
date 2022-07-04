@@ -515,15 +515,19 @@ a:hover.go-to-site-btn {
 }
 .work-panel-btn.Print {
   background-image: url("../public/images/print-tile.jpg");
+  order: 4;
 }
 .work-panel-btn.Web {
   background-image: url("../public/images/web-tile.png");
+  order: 1;
 }
 .work-panel-btn.Graphics {
   background-image: url("../public/images/graphics-tile.png");
+  order: 3;
 }
 .work-panel-btn.Photography {
   background-image: url("../public/images/photography-tile.png");
+  order: 2;
 }
 .work-panel-btn p {
   text-align: center;
@@ -905,6 +909,51 @@ a.contact {
 .zone-svg-heading.contact {
   justify-content: end;
 }
+a.home:hover .logo-svg g#Group_233 path#Ellipse_3 {
+  fill: var(--custom-red);
+}
+.nav-btn:hover svg g#Group_269 rect#Rectangle_484,
+.nav-btn:hover svg g#Group_269 rect#Rectangle_485,
+.nav-btn:hover svg g#Group_269 rect#Rectangle_486 {
+  fill: var(--custom-red);
+}
+.work-panel-btn {
+  transition: all 0.25s;
+}
+.work-panel-btn:hover {
+  transform: scale(105%);
+}
+.work-panel-btn:hover:before {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.work-container .item-container {
+  transition: all 0.25s;
+}
+.work-container .item-container:hover {
+  transform: scale(105%);
+}
+.work-container .item-container a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.work-container .item-container a:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  transition: all 0.25s;
+  background-color: rgba(0, 0, 0, 0);
+}
+.work-container .item-container a:hover:before {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 /* /////////////////////////////////////start queries/////////////////////////////////////// */
 @media only screen and (max-width: 700px) {
   .nav-btn,

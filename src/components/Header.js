@@ -16,7 +16,7 @@ export const Header = () => {
   return (
     <>
       <div className="header-wrapper">
-        <Link to="/">
+        <Link className="home" to="/">
           <div className="logo-svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
