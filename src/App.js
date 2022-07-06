@@ -1,5 +1,9 @@
 import React from "react";
 
 export const App = () => {
-  return <>App</>;
+  return (
+    <>
+      <h1>Not used App</h1>
+    </>
+  );
 };
