@@ -481,5 +481,14 @@
     "category": "Web",
     "objectposition": "0%",
     "url": "http://www.stc.qld.edu.au"
+  },
+  {
+    "id": 64,
+    "image": "/portfolio/images/sansisto.jpg",
+    "title": "San Sisto College",
+    "content": "",
+    "category": "Web",
+    "objectposition": "0%",
+    "url": "http://www.sansisto.qld.edu.au"
   }
 ]
