@@ -2,7 +2,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
   BrowserRouter,
   HashRouter,
 } from "react-router-dom";
