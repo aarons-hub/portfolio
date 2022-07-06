@@ -16,6 +16,7 @@ import { Contact } from "./components/Contact";
 import { WorkPanel } from "./components/WorkPanel";
 import { Tools } from "./components/Tools";
 import { WorkLandingPage } from "./components/WorkLandingPage";
+import { GoToTop } from "./components/GoToTop";
 import Moment from "moment";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -47,6 +48,7 @@ root.render(
         </div>
       </div>
     </div>
+    <GoToTop />
     <div className="date-copyright">
       <div className="col">
         <div className="date bne-date">{formatDate}</div>

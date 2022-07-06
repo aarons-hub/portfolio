@@ -18,7 +18,6 @@ export const Home = () => {
       <Tools />
       <Spacer />
       <Contact />
-      <Spacer />
     </>
   );
 };
