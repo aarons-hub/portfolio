@@ -152,6 +152,11 @@ export const Header = () => {
                 </Link>
               </li>
               <li>
+                <Link onClick={closeMenu} to="/history">
+                  History
+                </Link>
+              </li>
+              <li>
                 <Link onClick={closeMenu} to="/contact">
                   Contact
                 </Link>
