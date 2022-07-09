@@ -34,8 +34,6 @@ export const Home = () => {
       <Spacer />
       <WorkLandingPage />
       <Spacer />
-      <History />
-      <Spacer />
       <Tools />
       <Spacer />
       <Contact />
