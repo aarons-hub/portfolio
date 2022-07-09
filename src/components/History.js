@@ -131,12 +131,10 @@ export const History = () => {
                         </p>
                         <p className="employ">@ Brisbane Catholic Education</p>
                         <p>
-                          Front End Web Developer / Designer Brisbane Catholic
-                          Education BCE is the second largest non-Government
-                          employer in Queensland, supporting some 75,000
-                          students and 12,500 employees in 146 school
-                          communities and five office locations, all located in
-                          South East Queensland.
+                          BCE is the second largest non-Government employer in
+                          Queensland, supporting some 75,000 students and 12,500
+                          employees in 146 school communities and five office
+                          locations, all located in South East Queensland.
                         </p>
                       </div>
                     </div>
@@ -147,10 +145,9 @@ export const History = () => {
                         <p className="title">Art Director / Manager</p>
                         <p className="employ">@ Brisbane Imagesetter</p>
                         <p>
-                          Art Director / Manager Brisbane Imagesetter Brisbane
-                          Imagesetter was my own one-stop boutique art studio
-                          offering hi-resolution product photography, Giclee
-                          printing, print design and web design.
+                          Brisbane Imagesetter was my own one-stop boutique art
+                          studio offering hi-resolution product photography,
+                          Giclee printing, print design and web design.
                         </p>
                         <h2>2009</h2>
                       </div>
