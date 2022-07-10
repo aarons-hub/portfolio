@@ -107,7 +107,7 @@ export const WorkCategory = () => {
                       id={`image-${i.id}`}
                       src={i.image}
                       alt={i.title}
-                      style={{ objectPosition: `100% ${i.objectposition}` }}
+                      style={{ objectPosition: `50% ${i.objectposition}` }}
                     />
                   </Link>
                 </motion.div>

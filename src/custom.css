@@ -145,6 +145,7 @@ h2.custom-heading {
   right: 0;
   top: 0;
   width: 100%;
+  object-position: 50% 50%;
 }
 .detail-container {
   box-sizing: border-box;
