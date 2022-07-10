@@ -1198,4 +1198,7 @@ a.home:hover .logo-svg g#Group_233 path#Ellipse_3 {
   .history-wrapper .history-items .card p {
     font-size: 10px;
   }
+  .header-wrapper {
+    margin: 20px auto 20px auto;
+  }
 }
