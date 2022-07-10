@@ -17,6 +17,7 @@ import { WorkPanel } from "./components/WorkPanel";
 import { Tools } from "./components/Tools";
 import { WorkLandingPage } from "./components/WorkLandingPage";
 import { GoToTop } from "./components/GoToTop";
+import { History } from "./components/History";
 import Moment from "moment";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -43,6 +44,7 @@ root.render(
               <Route path="/workpanel" element={<WorkPanel />} />
               <Route path="/tools" element={<Tools />} />
               <Route path="/worklandingpage" element={<WorkLandingPage />} />
+              <Route path="/history" element={<History />} />
             </Routes>
           </HashRouter>
         </div>
