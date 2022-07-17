@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1946" height="376" viewBox="0 0 1946 376">
+  <g id="hello" transform="translate(-3685.286 -3062.758)">
+    <ellipse id="Ellipse_23" data-name="Ellipse 23" cx="188.5" cy="188" rx="188.5" ry="188" transform="translate(5254.286 3062.758)" fill="#212e37"/>
+    <rect id="Rectangle_492" data-name="Rectangle 492" width="209" height="349" rx="9" transform="translate(4635.286 3076.758)" fill="#212e37"/>
+    <path id="Subtraction_17" data-name="Subtraction 17" d="M296.251,345H19.752A19.724,19.724,0,0,1,0,325.349V19.651A19.724,19.724,0,0,1,19.752,0h276.5A19.722,19.722,0,0,1,316,19.651V51.976a17.39,17.39,0,0,1-5.657,11.162,17.567,17.567,0,0,1-11.811,4.551h-9.877a19.724,19.724,0,0,0-19.749,19.654V120.1a19.723,19.723,0,0,0,19.749,19.651h9.877a17.591,17.591,0,0,1,11.8,4.546A17.388,17.388,0,0,1,316,155.437V178.65a17.546,17.546,0,0,1-17.465,15.685h-9.877a19.725,19.725,0,0,0-19.752,19.654v32.753a19.724,19.724,0,0,0,19.752,19.651h9.877a17.587,17.587,0,0,1,11.792,4.54A17.4,17.4,0,0,1,316,282.056v43.293A19.722,19.722,0,0,1,296.251,345Z" transform="translate(4223.286 3076.758)" fill="#212e37"/>
+    <rect id="Rectangle_732" data-name="Rectangle 732" width="209" height="349" rx="9" transform="translate(4946.286 3076.758)" fill="#212e37"/>
+    <g id="Group_275" data-name="Group 275" transform="translate(3685 3076.265)">
+      <rect id="Rectangle_493" data-name="Rectangle 493" width="208" height="349" rx="9" transform="translate(0.286 0.493)" fill="#212e37"/>
+      <rect id="Rectangle_494" data-name="Rectangle 494" width="206" height="349" rx="9" transform="translate(227.286 0.493)" fill="#212e37"/>
+    </g>
+  </g>
+</svg>
