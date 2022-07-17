@@ -10,7 +10,7 @@
     "id": 2,
     "image": "/portfolio/images/reclaim-web.jpg",
     "title": "Reclaim Health and Rehabilitation",
-    "content": "Relclaim Health and Rehabilitation physiotherapy services. Built on Wordpress 6.0 with full site editing capabilities.",
+    "content": "Relclaim Health and Rehabilitation physiotherapy services. Built on Wordpress 6.1. Gutenberg full site editing capabilities.",
     "category": "Web",
     "objectposition": "0%",
     "url": "https://www.reclaimhealthandrehab.com.au"
@@ -125,77 +125,77 @@
     "id": 14,
     "image": "/portfolio/images/ansa-plumbing-logo.png",
     "title": "ANSA Plumbing Logo",
-    "content": "",
+    "content": "Logo design",
     "category": "Graphics"
   },
   {
     "id": 15,
     "image": "/portfolio/images/global-logo.png",
     "title": "Global Satilite Solutions",
-    "content": "",
+    "content": "Logo design",
     "category": "Graphics"
   },
   {
     "id": 16,
     "image": "/portfolio/images/urban-clean-logo.png",
     "title": "Urban Clean Cleaning Services",
-    "content": "",
+    "content": "Logo design",
     "category": "Graphics"
   },
   {
     "id": 18,
     "image": "/portfolio/images/qld-ultrasound-logo.png",
     "title": "Queensland Ultrasound for Women",
-    "content": "",
+    "content": "Logo design",
     "category": "Graphics"
   },
   {
     "id": 19,
     "image": "/portfolio/images/core-fusion-logo.png",
     "title": "Core Fusion Surfwear",
-    "content": "",
+    "content": "Logo design",
     "category": "Graphics"
   },
   {
     "id": 20,
     "image": "/portfolio/images/capital-home-loans-logo.png",
     "title": "Capital Home Loans",
-    "content": "",
+    "content": "Logo design",
     "category": "Graphics"
   },
   {
     "id": 21,
     "image": "/portfolio/images/bolliger-logo.png",
     "title": "Bolliger Promotions - Promotional Products",
-    "content": "",
+    "content": "Logo design",
     "category": "Graphics"
   },
   {
     "id": 22,
     "image": "/portfolio/images/isaso-compliance-logo.png",
     "title": "ISASO Vehicle Compliance Company",
-    "content": "",
+    "content": "Logo design",
     "category": "Graphics"
   },
   {
     "id": 23,
     "image": "/portfolio/images/spirit-house-logo.png",
     "title": "Spirit House Restaurant",
-    "content": "",
+    "content": "Logo design",
     "category": "Graphics"
   },
   {
     "id": 24,
     "image": "/portfolio/images/southern-mangoes.png",
     "title": "Southern Mangoes",
-    "content": "",
+    "content": "Illustrator vector graphic.",
     "category": "Graphics"
   },
   {
     "id": 17,
     "image": "/portfolio/images/kidszkombo.jpg",
     "title": "Kidz Combo - Birch Carol Coyle",
-    "content": "",
+    "content": "Illustrator vector graphic",
     "category": "Graphics"
   },
   {
@@ -522,5 +522,40 @@
     "content": "",
     "category": "Photography",
     "objectposition": "0%"
+  },
+  {
+    "id": 69,
+    "image": "/portfolio/images/new-ansa-logo.png",
+    "title": "ANSA Plumbing",
+    "content": "Logo revamp",
+    "category": "Graphics"
+  },
+  {
+    "id": 70,
+    "image": "/portfolio/images/rallings-print-image.jpg",
+    "title": "Rallings Print Group",
+    "content": "Brochure graphic.",
+    "category": "Graphics"
+  },
+  {
+    "id": 71,
+    "image": "/portfolio/images/motor-mickey.jpg",
+    "title": "Private",
+    "content": "Photoshop study",
+    "category": "Graphics"
+  },
+  {
+    "id": 72,
+    "image": "/portfolio/images/hot-plate.jpg",
+    "title": "Hot plate for boats",
+    "content": "",
+    "category": "Photography"
+  },
+  {
+    "id": 73,
+    "image": "/portfolio/images/avanti-brochure.jpg",
+    "title": "Avanti Furniture Brochure",
+    "content": "",
+    "category": "Print"
   }
 ]

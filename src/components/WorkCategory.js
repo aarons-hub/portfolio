@@ -97,6 +97,7 @@ export const WorkCategory = () => {
                 <motion.div
                   initial={{ opacity: 0, transform: "translateY(10px)" }}
                   animate={{ opacity: 1, transform: "translateY(0px)" }}
+                  exit={{ opacity: 0 }}
                   transition={{ duration: 0.3, delay: index * 0.15 }}
                   key={i.id}
                   className="item-container"

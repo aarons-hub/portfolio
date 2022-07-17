@@ -88,6 +88,7 @@ export const WorkDetails = () => {
           <motion.div
             initial={{ opacity: 0, transform: "translateY(1000px)" }}
             animate={{ opacity: 0.5, transform: "translateY(0px)" }}
+            exit={{ opacity: 0 }}
             className="detail-container"
           >
             <div className="detail-image">
