@@ -557,5 +557,12 @@
     "title": "Avanti Furniture Brochure",
     "content": "",
     "category": "Print"
+  },
+  {
+    "id": 74,
+    "image": "/portfolio/images/sierra-logo.png",
+    "title": "Sierra Office Solutions",
+    "content": "Logo design",
+    "category": "Graphics"
   }
 ]
