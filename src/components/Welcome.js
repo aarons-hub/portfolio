@@ -32,7 +32,6 @@ export const Welcome = () => {
             initial={{
               opacity: 0,
               transform: "translateY(-1000px)",
-              transition: { duration: 1 },
             }}
             animate={{
               opacity: 1,
@@ -59,7 +58,7 @@ export const Welcome = () => {
                   }}
                   animate={{
                     opacity: 1,
-                    transition: { duration: 6 },
+                    transition: { delay: 3.5 },
                   }}
                   id="Ellipse_23"
                   data-name="Ellipse 23"
@@ -76,7 +75,7 @@ export const Welcome = () => {
                   }}
                   animate={{
                     opacity: 1,
-                    transition: { duration: 4.5 },
+                    transition: { delay: 2.5 },
                   }}
                   id="Rectangle_492"
                   data-name="Rectangle 492"
@@ -92,7 +91,7 @@ export const Welcome = () => {
                   }}
                   animate={{
                     opacity: 1,
-                    transition: { duration: 4 },
+                    transition: { delay: 2 },
                   }}
                   id="Subtraction_17"
                   data-name="Subtraction 17"
@@ -106,7 +105,7 @@ export const Welcome = () => {
                   }}
                   animate={{
                     opacity: 1,
-                    transition: { duration: 5 },
+                    transition: { delay: 3 },
                   }}
                   id="Rectangle_732"
                   data-name="Rectangle 732"
@@ -127,7 +126,7 @@ export const Welcome = () => {
                     }}
                     animate={{
                       opacity: 1,
-                      transition: { duration: 3 },
+                      transition: { delay: 1 },
                     }}
                     id="Rectangle_493"
                     data-name="Rectangle 493"
@@ -143,7 +142,7 @@ export const Welcome = () => {
                     }}
                     animate={{
                       opacity: 1,
-                      transition: { duration: 3.5 },
+                      transition: { delay: 1.5 },
                     }}
                     id="Rectangle_494"
                     data-name="Rectangle 494"
