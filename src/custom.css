@@ -1219,6 +1219,16 @@ a.home:hover .logo-svg g#Group_233 path#Ellipse_3 {
   .header-wrapper {
     margin: 20px auto 20px auto;
   }
+  .timeline p {
+    font-size: 11px;
+  }
+  .timeline-left,
+  .timeline-right {
+    padding: 20px !important;
+  }
+  .timeline-center {
+    width: 40px !important;
+  }
 }
 
 .timeline {
@@ -1228,16 +1238,6 @@ a.home:hover .logo-svg g#Group_233 path#Ellipse_3 {
   justify-content: center;
   box-sizing: border-box;
 }
-/* .timeline:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  bottom: 0;
-  width: 1px;
-  background-color: white;
-  height: 100vh;
-} */
 .timeline-wrapper {
   max-width: 1100px;
   margin: 0 auto;
@@ -1342,17 +1342,4 @@ a.home:hover .logo-svg g#Group_233 path#Ellipse_3 {
   height: inherit;
   background: white;
   transform-origin: 50% 0%;
-}
-.test {
-  width: 30px;
-  height: 30px;
-  background-color: yellow;
-}
-.progress {
-  position: fixed;
-  left: 0;
-  right: 0;
-  height: 5px;
-  background: blue;
-  top: 100px;
 }
