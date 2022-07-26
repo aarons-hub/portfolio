@@ -1243,6 +1243,9 @@ a.home:hover .logo-svg g#Group_233 path#Ellipse_3 {
 .svg-welcome {
   text-align: center;
 }
+.svg-welcome svg {
+  width: 100%;
+}
 nav.not-responsive ul li {
   opacity: 1 !important;
   transform: translateY(0px) translateZ(0px) !important;
