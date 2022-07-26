@@ -4,6 +4,25 @@ import { motion } from "framer-motion";
 import { Parallax } from "react-scroll-parallax";
 
 export const Welcome = () => {
+  const welcomeWrapper = {
+    hidden: { opacity: 1, scale: 0 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        delayChildren: 0.3,
+        staggerChildren: 0.2,
+      },
+    },
+  };
+  const welcomeChildren = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+    },
+  };
+
   return (
     <>
       <div className="zone-container welcome">
@@ -28,20 +47,11 @@ export const Welcome = () => {
             </h1>
           </motion.div>
 
-          <motion.div
-            initial={{
-              opacity: 0,
-              transform: "translateY(-1000px)",
-            }}
-            animate={{
-              opacity: 1,
-              transform: "translateY(0px)",
-              transition: { duration: 1 },
-            }}
-            exit={{ opacity: 0 }}
-            className="zone-svg-heading welcome"
-          >
-            <svg
+          <div className="svg-welcome">
+            <motion.svg
+              variants={welcomeWrapper}
+              initial="hidden"
+              animate="visible"
               xmlns="http://www.w3.org/2000/svg"
               width="840"
               height="162"
@@ -52,14 +62,7 @@ export const Welcome = () => {
                 data-name="Group 647"
                 transform="translate(-3685 -3062.758)"
               >
-                <motion.ellipse
-                  initial={{
-                    opacity: 0,
-                  }}
-                  animate={{
-                    opacity: 1,
-                    transition: { delay: 3.5 },
-                  }}
+                <ellipse
                   id="Ellipse_23"
                   data-name="Ellipse 23"
                   cx="81.5"
@@ -69,14 +72,7 @@ export const Welcome = () => {
                   transform="translate(4362 3062.758)"
                   fill="#febe1e"
                 />
-                <motion.rect
-                  initial={{
-                    opacity: 0,
-                  }}
-                  animate={{
-                    opacity: 1,
-                    transition: { delay: 2.5 },
-                  }}
+                <rect
                   id="Rectangle_492"
                   data-name="Rectangle 492"
                   width="90"
@@ -85,28 +81,14 @@ export const Welcome = () => {
                   transform="translate(4095 3068.758)"
                   fill="#febe1e"
                 />
-                <motion.path
-                  initial={{
-                    opacity: 0,
-                  }}
-                  animate={{
-                    opacity: 1,
-                    transition: { delay: 2 },
-                  }}
+                <path
                   id="Subtraction_17"
                   data-name="Subtraction 17"
                   d="M127.5,149H8.5A8.5,8.5,0,0,1,0,140.513V8.487A8.5,8.5,0,0,1,8.5,0h119A8.5,8.5,0,0,1,136,8.487V22.447a7.558,7.558,0,0,1-7.518,6.786h-4.251a8.5,8.5,0,0,0-8.5,8.488V51.868a8.5,8.5,0,0,0,8.5,8.487h4.251A7.562,7.562,0,0,1,136,67.131V77.156a7.561,7.561,0,0,1-7.517,6.774h-4.251a8.5,8.5,0,0,0-8.5,8.488v14.146a8.5,8.5,0,0,0,8.5,8.487h4.251A7.565,7.565,0,0,1,136,121.815v18.7A8.5,8.5,0,0,1,127.5,149Z"
                   transform="translate(3917 3068.758)"
                   fill="#febe1e"
                 />
-                <motion.rect
-                  initial={{
-                    opacity: 0,
-                  }}
-                  animate={{
-                    opacity: 1,
-                    transition: { delay: 3 },
-                  }}
+                <rect
                   id="Rectangle_732"
                   data-name="Rectangle 732"
                   width="90"
@@ -120,14 +102,7 @@ export const Welcome = () => {
                   data-name="Group 275"
                   transform="translate(3685 3069.104)"
                 >
-                  <motion.rect
-                    initial={{
-                      opacity: 0,
-                    }}
-                    animate={{
-                      opacity: 1,
-                      transition: { delay: 1 },
-                    }}
+                  <rect
                     id="Rectangle_493"
                     data-name="Rectangle 493"
                     width="90"
@@ -136,14 +111,7 @@ export const Welcome = () => {
                     transform="translate(0 -0.346)"
                     fill="#febe1e"
                   />
-                  <motion.rect
-                    initial={{
-                      opacity: 0,
-                    }}
-                    animate={{
-                      opacity: 1,
-                      transition: { delay: 1.5 },
-                    }}
+                  <rect
                     id="Rectangle_494"
                     data-name="Rectangle 494"
                     width="89"
@@ -154,8 +122,8 @@ export const Welcome = () => {
                   />
                 </g>
               </g>
-            </svg>
-          </motion.div>
+            </motion.svg>
+          </div>
         </div>
       </div>
     </>

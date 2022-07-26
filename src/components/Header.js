@@ -1,9 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 export const Header = () => {
   const [active, setActive] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  const handleResize = () => {
+    setWindowWidth(window.innerWidth);
+    windowWidth <= 800 ? setActive(false) : setActive(true);
+  };
+
+  useEffect(() => {
+    const windowWidth = window.innerWidth;
+    windowWidth <= 800 ? setActive(false) : setActive(true);
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [windowWidth]);
 
   const showMenu = () => {
     setActive(true);
@@ -11,6 +31,90 @@ export const Header = () => {
 
   const closeMenu = () => {
     setActive(false);
+  };
+
+  const menudata = [
+    {
+      id: 1,
+      title: "Home",
+      path: "/",
+      children: [],
+    },
+    {
+      id: 2,
+      title: "About",
+      path: "/about",
+      children: [],
+    },
+    {
+      id: 3,
+      title: "Work",
+      path: "/worklandingpage",
+      children: [
+        {
+          id: 7,
+          title: "Web",
+          path: "/category/Web",
+        },
+        {
+          id: 8,
+          title: "Photography",
+          path: "/category/Photography",
+        },
+        {
+          id: 9,
+          title: "Graphics",
+          path: "/category/Graphics",
+        },
+        {
+          id: 10,
+          title: "Print",
+          path: "/category/Print",
+        },
+      ],
+    },
+    {
+      id: 4,
+      title: "Tools",
+      path: "/tools",
+      children: [],
+    },
+    {
+      id: 5,
+      title: "History",
+      path: "/history",
+      children: [],
+    },
+    {
+      id: 6,
+      title: "Contact",
+      path: "/contact",
+      children: [],
+    },
+  ];
+  const menuVariants = {
+    open: {
+      transition: { staggerChildren: 0.07, delayChildren: 0.2 },
+    },
+    closed: {
+      transition: { staggerChildren: 0.05, staggerDirection: -1 },
+    },
+  };
+  const menuChildrenVariants = {
+    open: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        y: { stiffness: 1000 },
+      },
+    },
+    closed: {
+      y: 50,
+      opacity: 0.2,
+      transition: {
+        y: { stiffness: 1000 },
+      },
+    },
   };
 
   return (
@@ -108,62 +212,36 @@ export const Header = () => {
                 </g>
               </svg>
             </button>
-            <ul>
-              <li>
-                <Link onClick={closeMenu} to="/">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link onClick={closeMenu} to="/about">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link onClick={closeMenu} to="/worklandingpage">
-                  Work
-                </Link>
-                <ul className="dropdown">
-                  <li>
-                    <Link onClick={closeMenu} to="/category/Web">
-                      Web
+            <motion.ul
+              variants={menuVariants}
+              animate={active ? "open" : "closed"}
+            >
+              {menudata.map((e, index) => {
+                return (
+                  <motion.li key={e.id} variants={menuChildrenVariants}>
+                    <Link to={e.path} onClick={closeMenu}>
+                      {e.title}
                     </Link>
-                  </li>
-                  <li>
-                    <Link onClick={closeMenu} to="/category/Photography">
-                      Photography
-                    </Link>
-                  </li>
-                  <li>
-                    <Link onClick={closeMenu} to="/category/Graphics">
-                      Graphics
-                    </Link>
-                  </li>
-                  <li>
-                    <Link onClick={closeMenu} to="/category/Print">
-                      Print
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <Link onClick={closeMenu} to="/tools">
-                  Tools
-                </Link>
-              </li>
-              <li>
-                <Link onClick={closeMenu} to="/history">
-                  History
-                </Link>
-              </li>
-              <li>
-                <Link onClick={closeMenu} to="/contact">
-                  Contact
-                </Link>
-              </li>
-            </ul>
+                    <ul className="dropdown">
+                      {e.children.map((e, index) => {
+                        return (
+                          <li key={e.id}>
+                            <Link to={e.path} onClick={closeMenu}>
+                              {e.title}
+                            </Link>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </motion.li>
+                );
+              })}
+            </motion.ul>
           </nav>
-          <button className="nav-btn" onClick={showMenu}>
+          <button
+            className={`nav-btn ${active ? "hide" : "show"}`}
+            onClick={showMenu}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
