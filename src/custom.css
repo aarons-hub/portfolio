@@ -552,9 +552,10 @@ a:hover.go-to-site-btn {
 }
 .work-panel-btns-wrapper {
   display: flex;
-  gap: 40px;
+  gap: 20px;
   flex-wrap: wrap;
   margin-top: 40px;
+  justify-content: center;
 }
 .category-title-and-btn {
   display: flex;
@@ -984,7 +985,7 @@ a.home:hover .logo-svg g#Group_233 path#Ellipse_3 {
   justify-content: center;
   align-items: center;
   position: fixed;
-  bottom: 21px;
+  bottom: 69px;
   right: 20px;
   width: 55px;
   height: 55px;
@@ -1314,8 +1315,8 @@ nav.not-responsive ul li {
     flex-direction: column;
   }
   .work-panel-btn {
-    width: 130px;
-    height: 130px;
+    width: 125px;
+    height: 125px;
   }
   .title {
     font-size: 14px;
@@ -1335,7 +1336,7 @@ nav.not-responsive ul li {
     padding: 0px 0px;
   }
   .item-container {
-    width: 130px;
+    width: 125px;
     border-radius: 12px;
     min-height: 112px;
   }
