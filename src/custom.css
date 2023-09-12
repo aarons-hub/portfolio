@@ -1315,8 +1315,8 @@ nav.not-responsive ul li {
     flex-direction: column;
   }
   .work-panel-btn {
-    width: 125px;
-    height: 125px;
+    width: 120px;
+    height: 120px;
   }
   .title {
     font-size: 14px;
@@ -1336,7 +1336,7 @@ nav.not-responsive ul li {
     padding: 0px 0px;
   }
   .item-container {
-    width: 125px;
+    width: 120px;
     border-radius: 12px;
     min-height: 112px;
   }
