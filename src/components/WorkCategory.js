@@ -87,7 +87,7 @@ export const WorkCategory = () => {
           <div className="category-title-and-btn">
             <h2 className="custom-heading category">{cat}</h2>
             <Link to={"/worklandingpage"} className="go-back-btn work-category">
-              Go back
+              Previous page
             </Link>
           </div>
 

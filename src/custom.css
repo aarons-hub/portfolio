@@ -498,7 +498,7 @@ a:hover.go-to-site-btn {
   overflow: hidden;
   width: 200px;
   height: 200px;
-  border-radius: 100%;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1338,7 +1338,7 @@ nav.not-responsive ul li {
     padding: 0px 0px;
   }
   .item-container {
-    width: 140px;
+    width: 130px;
     border-radius: 12px;
     min-height: 112px;
   }

@@ -81,7 +81,7 @@ export const WorkDetails = () => {
         <h1>WorkDetails page</h1>
         <div className="btn-wrapper">
           <Link to={"/work"} className="go-back-btn">
-            Go back
+            Previous page
           </Link>
         </div>
         {found && (

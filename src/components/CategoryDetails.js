@@ -80,13 +80,13 @@ export const CategoryDetails = () => {
           >
             <div className="btn-wrapper">
               <Link to={`/category/${found.category}`} className="go-back-btn">
-                Go back
+                Previous page
               </Link>
               {found.url === undefined || found.url === null ? (
                 <span></span>
               ) : (
                 <a href={found.url} target="_blank" className="go-to-site-btn">
-                  Go to website
+                  Visit website
                 </a>
               )}
             </div>
