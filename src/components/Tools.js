@@ -6,14 +6,17 @@ export const Tools = () => {
     {
       id: 1,
       image: "html-icon.png",
+      alt: "html 5",
     },
     {
       id: 2,
       image: "css-icon.png",
+      alt: "css 3",
     },
     {
       id: 3,
       image: "js-icon.png",
+      alt: "javascript",
     },
     {
       id: 4,
@@ -151,7 +154,10 @@ export const Tools = () => {
                     animate={{ opacity: 1, transform: "translateY(0px)" }}
                     transition={{ duration: 0.7, delay: index * 0.15 }}
                   >
-                    <img src={`/portfolio/images/${e.image}`} />
+                    <img
+                      src={`/portfolio/images/${e.image}`}
+                      alt={e.alt || ""}
+                    />
                   </motion.div>
                 );
               })}

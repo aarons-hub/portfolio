@@ -23,7 +23,8 @@
   --custom-Interfont: "Inter", sans-serif;
   --custom-shadow: rgba(0, 0, 0, 0.3);
   --custom-btn-hover: tomato;
-  --custom-gray: #18262f;
+  --custom-gray-back: #18262f;
+  --custom-gray: #fff;
   --custom-yellow: #febe1e;
 }
 body {
@@ -124,7 +125,7 @@ h2.custom-heading {
   position: relative;
   box-sizing: border-box;
   overflow: hidden;
-  border-radius: 40px;
+  border-radius: 12px;
   align-items: center;
   display: flex;
   min-height: 200px;
